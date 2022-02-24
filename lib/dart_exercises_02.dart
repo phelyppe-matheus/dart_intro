@@ -4,7 +4,7 @@ int return_1() {
   return 1;
 }
 
-num exercise_01(List<num> items) {
+num exercise01(List<num> items) {
   num sum = 0;
 
   for (var item in items) {
@@ -13,7 +13,7 @@ num exercise_01(List<num> items) {
   return sum;
 }
 
-num exercise_02(List<num> items) {
+num exercise02(List<num> items) {
   num mul = 1;
 
   for (var item in items) {
@@ -23,12 +23,12 @@ num exercise_02(List<num> items) {
   return mul;
 }
 
-num exercise_03(Function f, var input) {
+num exercise03(Function f, var input) {
   return f(input);
 }
 
-num exercise_04_1(int x, int y) {
+num exercise04_1(int x, int y) {
   return pow(x, y);
 }
 
-num exercise_04_2(int x, int y) => pow(x, y);
+num exercise04_2(int x, int y) => pow(x, y);
